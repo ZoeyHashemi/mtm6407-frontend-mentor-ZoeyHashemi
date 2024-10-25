@@ -1,0 +1,19 @@
+
+@use 'variables';
+
+// Footer Styles
+.footer {
+  background-color: variables.$footer-bg;
+  color: variables.$grayish-blue;
+  border-top-right-radius: 100px;
+  padding: 3rem 0;
+ 
+  a {
+    color: variables.$grayish-blue;
+    font-size: 14px;
+    &:hover {
+      color:white;
+      font-size: 16px;
+    }
+  }
+} 

@@ -1,0 +1,14 @@
+
+@use 'variables';
+
+// Header Section
+
+@media (max-width: 1000px) {
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+
+  .navbar-toggler {
+    border-color: white;
+  }
+}

@@ -1,0 +1,27 @@
+@use 'variables';
+
+.btn {
+  color:white;
+  border-radius:30px ;
+  padding-left:20px;
+  border:white;
+  color:variables.$primary-color ;
+ &:hover {
+   background-color: variables.$primary-color-hover;
+ }
+ &.btn-start{
+  background-color: white;
+ }
+   &.sign-up-btn{
+    padding:10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    &:hover{
+      color:variables.$dark-blue;
+    }
+  }
+}
+.btn-outline-light {
+  border: 2px solid white;
+  color: white;
+}
