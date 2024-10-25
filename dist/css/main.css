@@ -104,12 +104,12 @@ h2, h3 {
   height: 400px;
   margin-bottom: 6rem;
 }
+.state-of-art-section h3, .state-of-art-section p {
+  color: white;
+  padding: 15px;
+}
 .state-of-art-section .row {
   margin-bottom: 4rem;
-}
-.state-of-art-section .row h3 p {
-  color: white;
-  margin-bottom: 1.5rem;
 }
 
 .tools-section {
@@ -197,6 +197,4 @@ h2, h3 {
   body .state-of-art-section .navbar-nav, footer .state-of-art-section .navbar-nav {
     text-align: center;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

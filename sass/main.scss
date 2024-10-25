@@ -68,12 +68,13 @@ h1{
   border-top-right-radius: 100px;
   height: 400px;
   margin-bottom: 6rem;
+ h3, p{
+  color: white;
+  padding: 15px;
+ }
   .row {
     margin-bottom: 4rem;
-    h3 p{
-      color:white;
-      margin-bottom: 1.5rem;
-    }
+   
   }
 }
 // Tools Section
